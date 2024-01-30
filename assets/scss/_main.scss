@@ -1,0 +1,60 @@
+@import 'variables';
+@import 'general';
+@import 'layout';
+
+@import 'utilities/font';
+@import 'utilities/margin';
+@import 'utilities/padding';
+
+:root {
+  --dark: #0D0C0F;
+  --dark-smooth: #1A161F;
+  --gray: #29282F;
+
+  --primary: #B43FEB;
+  --success: #25DC37;
+  --alert: #EB3F5E;
+  --warning: #FFCD1A;
+
+  --gray-1: #F9F9F9;
+  --gray-2: #ECF1F6;
+  --gray-3: #E3E9ED;
+  --gray-4: #D1D8DD;
+  --gray-5: #BFC6CC;
+  --gray-6: #9CA4AB;
+  --gray-7: #78828A;
+  --gray-8: #66707A;
+  --gray-9: #434E58;
+  --gray-10: #171725;
+
+  /*60px => 120px*/
+  --font-size--xxl: clamp(3.75rem, 2.549rem + 4.93vw, 7.5rem);
+
+  /*40 px = > 64 px*/
+  --font-size--xl: clamp(2.5rem, 2.02rem + 1.97vw, 4rem);
+
+  /*32 px = > 40 px*/
+  --font-size--l: clamp(2rem, 1.84rem + 0.66vw, 2.5rem);
+
+  /*28 px = > 32 px*/
+  --font-size--ml: clamp(1.5rem, 1.34rem + 0.66vw, 2rem);
+
+  /*20 px = > 24 px*/
+  --font-size--m: clamp(1.25rem, 1.17rem + 0.33vw, 1.5rem);
+
+  /*18 px = > 20 px*/
+  --font-size--base: clamp(1.125rem, 1.085rem + 0.16vw, 1.25rem);
+
+  /*16 px = > 18 px*/
+  --font-size--s: clamp(1rem, 0.96rem + 0.16vw, 1.125rem);
+
+  /*15 px = > 16 px*/
+  --font-size--xs: clamp(0.938rem, 0.917rem + 0.08vw, 1rem);
+
+  /*13 px = > 14 px*/
+  --font-size--2xs: clamp(0.813rem, 0.792rem + 0.08vw, 0.875rem);
+
+  /*11 px = > 12 px*/
+  --font-size--3xs: clamp(0.688rem, 0.667rem + 0.08vw, 0.75rem);
+}
+

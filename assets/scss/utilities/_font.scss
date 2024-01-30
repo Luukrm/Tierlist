@@ -1,0 +1,74 @@
+.text-xxl {
+  font-size: var(--font-size--xxl);
+}
+
+.text-xl {
+  font-size: var(--font-size--xl);
+}
+
+.text-l {
+  font-size: var(--font-size--l);
+}
+
+.text-ml {
+  font-size: var(--font-size--ml);
+}
+
+.text-m {
+  font-size: var(--font-size--m);
+}
+
+.text-base {
+  font-size: var(--font-size--base);
+}
+
+.text-s {
+  font-size: var(--font-size--s);
+}
+
+.text-xs {
+  font-size: var(--font-size--xs);
+}
+
+.text-2xs {
+  font-size: var(--font-size--2xs);
+}
+
+.text-3xs {
+  font-size: var(--font-size--3xs);
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.2;
+}
+
+.leading-snug {
+  line-height: 1.3;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-relaxed {
+  line-height: 1.7;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+
+}

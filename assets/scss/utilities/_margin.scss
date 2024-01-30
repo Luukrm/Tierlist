@@ -1,0 +1,77 @@
+/*96px => 144px*/
+.m-2xl   { margin: clamp(6rem, 5.039rem + 3.94vw, 9rem);        }
+.mt-2xl  { margin-top: clamp(6rem, 5.039rem + 3.94vw, 9rem);    }
+.mr-2xl  { margin-right: clamp(6rem, 5.039rem + 3.94vw, 9rem);   }
+.mb-2xl  { margin-bottom: clamp(6rem, 5.039rem + 3.94vw, 9rem);  }
+.ml-2xl  { margin-left: clamp(6rem, 5.039rem + 3.94vw, 9rem);    }
+
+/*40px => 112px*/
+.m-xl   { margin: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);}
+.mt-xl  { margin-top: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);     }
+.mr-xl  { margin-right: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);   }
+.mb-xl  { margin-bottom: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);  }
+.ml-xl  { margin-left: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);    }
+
+/*32px => 64px*/
+.m-l   { margin: clamp(2rem, 1.36rem + 2.63vw, 4rem);            }
+.mt-l  { margin-top: clamp(2rem, 1.36rem + 2.63vw, 4rem);        }
+.mr-l  { margin-right: clamp(2rem, 1.36rem + 2.63vw, 4rem);      }
+.mb-l  { margin-bottom: clamp(2rem, 1.36rem + 2.63vw, 4rem);     }
+.ml-l  { margin-left: clamp(2rem, 1.36rem + 2.63vw, 4rem);       }
+
+/*32px => 56px*/
+.m-ml   { margin: clamp(3rem, 2.839rem + 0.66vw, 3.5rem)         }
+.mt-ml  { margin-top: clamp(3rem, 2.839rem + 0.66vw, 3.5rem)    }
+.mr-ml  { margin-right: clamp(3rem, 2.839rem + 0.66vw, 3.5rem)   }
+.mb-ml  { margin-bottom: clamp(3rem, 2.839rem + 0.66vw, 3.5rem)  }
+.ml-ml  { margin-left: clamp(3rem, 2.839rem + 0.66vw, 3.5rem);   }
+
+/*32px => 48px*/
+.m-m   { margin:clamp(2rem, 1.68rem + 1.31vw, 3rem);            }
+.mt-m  { margin-top: clamp(2rem, 1.68rem + 1.31vw, 3rem);       }
+.mr-m  { margin-right: clamp(2rem, 1.68rem + 1.31vw, 3rem);     }
+.mb-m  { margin-bottom: clamp(2rem, 1.68rem + 1.31vw, 3rem);    }
+.ml-m  { margin-left: clamp(2rem, 1.68rem + 1.31vw, 3rem);      }
+
+/*40px => 32px*/
+.m-s   { margin: clamp(2rem, 1.84rem + 0.66vw, 2.5rem)         }
+.mt-s  { margin-top: clamp(2rem, 1.84rem + 0.66vw, 2.5rem)   }
+.mr-s  { margin-right: clamp(2rem, 1.84rem + 0.66vw, 2.5rem)  }
+.mb-s  { margin-bottom: clamp(2rem, 1.84rem + 0.66vw, 2.5rem)  }
+.ml-s  { margin-left: clamp(2rem, 1.84rem + 0.66vw, 2.5rem)    }
+
+/*24px => 32px*/
+.m-xs   { margin: clamp(1.5rem, 1.34rem + 0.66vw, 2rem)         }
+.mt-xs  { margin-top: clamp(1.5rem, 1.34rem + 0.66vw, 2rem)    }
+.mr-xs  { margin-right: clamp(1.5rem, 1.34rem + 0.66vw, 2rem);   }
+.mb-xs  { margin-bottom: clamp(1.5rem, 1.34rem + 0.66vw, 2rem)  }
+.ml-xs  { margin-left: clamp(1.5rem, 1.34rem + 0.66vw, 2rem)    }
+
+/*16px => 24px AF*/
+.m-2xs   { margin: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);         }
+.mt-2xs  { margin-top: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);     }
+.mr-2xs  { margin-right: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);   }
+.mb-2xs  { margin-bottom: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);  }
+.ml-2xs  { margin-left: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);    }
+
+/*8px => 16px*/
+.m-3xs   { margin: clamp(0.5rem, 0.34rem + 0.66vw, 1rem);         }
+.mt-3xs  { margin-top: clamp(0.5rem, 0.34rem + 0.66vw, 1rem);     }
+.mr-3xs  { margin-right: clamp(0.5rem, 0.34rem + 0.66vw, 1rem);   }
+.mb-3xs  { margin-bottom: clamp(0.5rem, 0.34rem + 0.66vw, 1rem);  }
+.ml-3xs  { margin-left: clamp(0.5rem, 0.34rem + 0.66vw, 1rem);    }
+
+/*4px => 8px*/
+.m-4xs   { margin: clamp(0.25rem, 0.17rem + 0.33vw, 0.5rem);        }
+.mt-4xs  { margin-top: clamp(0.25rem, 0.17rem + 0.33vw, 0.5rem);    }
+.mr-4xs  { margin-right: clamp(0.25rem, 0.17rem + 0.33vw, 0.5rem);  }
+.mb-4xs  { margin-bottom: clamp(0.25rem, 0.17rem + 0.33vw, 0.5rem); }
+.ml-4xs  { margin-left: clamp(0.25rem, 0.17rem + 0.33vw, 0.5rem);   }
+
+.mb-0 {
+  margin-bottom:0;
+}
+
+.mt-0 {
+  margin-top:0;
+}

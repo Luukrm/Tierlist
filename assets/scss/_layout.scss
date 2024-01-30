@@ -1,0 +1,15 @@
+.layout__inner {
+  padding: 0 clamp(1rem, -0.281rem + 5.25vw, 5rem);
+
+  width: 100%;
+  max-width: 1768px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: clamp(1rem, 0.84rem + 0.66vw, 1.5rem);
+}
